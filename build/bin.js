@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import meow from "meow";
-import execzero from "./";
+import execzero from "./index";
 
 const cli = meow({
     help: ["Usage", "  $ execzero", ""],
