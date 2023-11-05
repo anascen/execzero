@@ -5,15 +5,15 @@ execzero is an npm package designed to work seamlessly with ascen's zero package
 ## Installation:
 - **Using npm:**
 ```
-npm i @ascen/execzero
+npm i -g @ascen/execzero
 ```
 
 - **Using yarn:**
 ```
-yarn add @ascen/execzero
+yarn global add @ascen/execzero
 ```
 
 - **Using pnpm:**
 ```
-pnpm add @ascen/execzero
+pnpm global add @ascen/execzero
 ```
