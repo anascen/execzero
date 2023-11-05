@@ -4,6 +4,7 @@ import execzero from "./index.js";
 
 const cli = meow({
     help: ["Usage", "  $ execzero", ""],
+    importMeta: import.meta,
 });
 
 /*
