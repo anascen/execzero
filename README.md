@@ -13,7 +13,7 @@ npm i @ascen/execzero
 yarn add @ascen/execzero
 ```
 
-- **Using pnpm**
+- **Using pnpm:**
 ```
 pnpm add @ascen/execzero
 ```
