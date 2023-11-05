@@ -1,6 +1,6 @@
 {
     "name": "@ascen/execzero",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Shutdown your PC",
     "main": "build/index.js",
     "types": "build/index.d.ts",
@@ -12,7 +12,8 @@
         "./LICENSE"
     ],
     "scripts": {
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "postversion": "git push && git push --tags && npm publish"
     },
     "repository": {
         "type": "git",
