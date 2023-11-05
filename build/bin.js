@@ -3,7 +3,7 @@ import meow from "meow";
 import execzero from "./index.js";
 
 const cli = meow({
-    help: ["Usage", "  $ execzero", ""],
+    help: ["Usage", "  $ execzero", ""].join("\n"),
     importMeta: import.meta,
 });
 

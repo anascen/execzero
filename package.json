@@ -1,6 +1,6 @@
 {
     "name": "@ascen/execzero",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Shutdown your PC",
     "main": "./build/index.js",
     "types": "build/index.d.ts",
