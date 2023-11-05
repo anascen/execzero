@@ -1,0 +1,57 @@
+{
+    "name": "@ascen/execzero",
+    "version": "1.0.0",
+    "description": "Shutdown your PC",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "exports": "./build/index.js",
+    "module": "./build/index.js",
+    "bin": "build/bin.js",
+    "files": [
+        "./build",
+        "./LICENSE"
+    ],
+    "scripts": {
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anascen/execzero.git"
+    },
+    "keywords": [
+        "cli",
+        "node",
+        "global",
+        "pc",
+        "shutdown",
+        "cli-app",
+        "off",
+        "power-off",
+        "down"
+    ],
+    "author": "ascen",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/anascen/execzero/issues"
+    },
+    "homepage": "https://github.com/anascen/execzero#readme",
+    "devDependencies": {
+        "@ascen/corus-tsconfig": "^1.2.1",
+        "husky": "^8.0.3",
+        "lint-staged": "^15.0.2",
+        "prettier": "^3.0.3"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown",
+        "**/**/*": "prettier --write --ignore-unknown"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "is-linux": "^1.0.1",
+        "is-osx": "^1.0.2",
+        "is-windows": "^1.0.2",
+        "meow": "^12.1.1"
+    }
+}
