@@ -11,7 +11,7 @@ const cli = meow({
  * Call function execzero with callback arguments
  * if err and stderr is null log stdout
  */
-execzero((err, stderr, stdout) => {
+execzero((err, stdout, stderr) => {
     if (!err && !stderr) {
         console.log(stdout);
     } else {
