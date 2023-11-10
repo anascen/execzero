@@ -30,7 +30,7 @@ pnpm global add @ascen/execzero
 import execzero from "@ascen/execzero"
 
 // Call an execzero function
-execzero((err, stderr, stdout) => {
+execzero((err, stdout, stderr) => {
     if(!err && !stderr) {
         console.log(stdout);
     }
